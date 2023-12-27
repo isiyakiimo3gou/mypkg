@@ -1,0 +1,28 @@
+[0.384s] Invoking command in '/home/takumi/ros2_ws/src/mypkg': PYTHONPATH=/home/takumi/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takumi/ros2_ws/src/mypkg/build/mypkg/build install --record /home/takumi/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.508s] running egg_info
+[0.508s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.509s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.509s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.509s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.509s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.510s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.510s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.510s] running build
+[0.510s] running build_py
+[0.511s] copying mypkg/listener.py -> /home/takumi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.511s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.511s]   warnings.warn(
+[0.511s] running install
+[0.511s] running install_lib
+[0.512s] copying /home/takumi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.512s] byte-compiling /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[0.514s] running install_data
+[0.514s] copying package.xml -> /home/takumi/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.514s] running install_egg_info
+[0.515s] removing '/home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.516s] Copying build/mypkg/mypkg.egg-info to /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.517s] running install_scripts
+[0.529s] Installing listener script to /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.529s] Installing talker script to /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.530s] writing list of installed files to '/home/takumi/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.545s] Invoked command in '/home/takumi/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/takumi/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takumi/ros2_ws/src/mypkg/build/mypkg/build install --record /home/takumi/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
