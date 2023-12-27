@@ -1,0 +1,35 @@
+[0.613s] Invoking command in '/home/takumi/ros2_ws/src/mypkg': PYTHONPATH=/home/takumi/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takumi/ros2_ws/src/mypkg/build/mypkg/build install --record /home/takumi/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.774s] running egg_info
+[0.775s] creating build/mypkg/mypkg.egg-info
+[0.775s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.775s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.776s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.776s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.776s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.777s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.778s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.779s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.779s] running build
+[0.779s] running build_py
+[0.779s] creating /home/takumi/ros2_ws/src/mypkg/build/mypkg/build
+[0.779s] creating /home/takumi/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.780s] creating /home/takumi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.780s] copying mypkg/__init__.py -> /home/takumi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.780s] running install
+[0.780s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.781s]   warnings.warn(
+[0.781s] running install_lib
+[0.798s] creating /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.798s] copying /home/takumi/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.800s] byte-compiling /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[0.800s] running install_data
+[0.801s] creating /home/takumi/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.801s] creating /home/takumi/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.801s] creating /home/takumi/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.801s] copying resource/mypkg -> /home/takumi/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.801s] copying package.xml -> /home/takumi/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.801s] running install_egg_info
+[0.803s] Copying build/mypkg/mypkg.egg-info to /home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.804s] running install_scripts
+[0.823s] writing list of installed files to '/home/takumi/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.844s] Invoked command in '/home/takumi/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/takumi/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/takumi/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/takumi/ros2_ws/src/mypkg/build/mypkg/build install --record /home/takumi/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
