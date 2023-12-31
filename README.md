@@ -3,7 +3,11 @@
 
 このリポジトリは千葉工業大学ロボットシステム学の授業で使用している
 
-# ノード
+# このパッケージでできること
+
+* talker
+* listener
+* launch
 
 ## talker
 
@@ -17,6 +21,12 @@ talkerとlistenerで端末を分ける。
 ```
 $ ros2 run mypkg talker
 ```
+
+## トピック(countup)について
+
+talkerとlistenerをやり取りをするための流路である。
+
+
 ## listener
 
 talkerからcountupを通じて伝わってきた結果を出力する。
