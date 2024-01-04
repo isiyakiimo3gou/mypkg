@@ -1,17 +1,18 @@
 # mypkg
 [![test](https://github.com/isiyakiimo3gou/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/isiyakiimo3gou/mypkg/actions/workflows/test.yml)
 
-このリポジトリは千葉工業大学ロボットシステム学の授業で使用している
+* このリポジトリは千葉工業大学ロボットシステム学の授業で使用している
+* このリポジトリはROS2のパッケージである。
 
 # このパッケージでできること
 
-* talker
-* listener
-* launch
+
+talkerとlistenerの2つのノードで作成されている。
+takerから出力さえれた数字のカウントをcountupを通じてlistenerに伝えることができる。
 
 ## talker
 
-０．５秒ごとに数字をカウントしていきその結果をcountupを通じて伝える。
+0.5秒ごとに数字をカウントしていきその結果をcountupを通じて伝える。
 
 ### 使用方法
 
@@ -24,7 +25,7 @@ $ ros2 run mypkg talker
 
 ## トピック(countup)について
 
-talkerとlistenerをやり取りをするための流路である。
+talkerとlistenerをlnt16型のメッセージで送信し、出力する。
 
 
 ## listener
@@ -59,7 +60,7 @@ $ ros2 run mypkg listener
 
 ## launch
 
-talkerとlistenerを一つの端末で同時に使うことができる。
+talkerとlistenerを1つの端末で同時に使うことができる。
 
 ### 使用方法
 
